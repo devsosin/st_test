@@ -714,3 +714,9 @@ st.title("My First Streamlit App")
 st.write("Hello Streamlit !")
 
 st.write('Auto Deployment Test')
+
+import os
+
+ENV_KEYWORD = os.environ.get('ENVIRONMENT_TEST', 'NOT YET SET')
+
+st.write(f'ENV_KEYWORD: {ENV_KEYWORD}')
