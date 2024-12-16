@@ -216,7 +216,7 @@ import streamlit as st
 
 
 # import streamlit as st
-import seaborn as sns
+# import seaborn as sns
 # import pandas as pd
 
 # # 샘플 데이터 로드
@@ -228,9 +228,9 @@ import seaborn as sns
 # # Streamlit에 그래프 표시
 # st.pyplot(fig)
 
-import streamlit as st
-import plotly.express as px
-import pandas as pd
+# import streamlit as st
+# import plotly.express as px
+# import pandas as pd
 
 # # 샘플 데이터 생성
 # data = {
